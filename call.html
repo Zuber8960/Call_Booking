@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="call.css" >
+</head>
+
+<body>
+    <h2>Designed by Zuber Ahmad.</h2>
+    <div class="container">
+        <H1 style="text-align: center; color: green;">Book a call</H1>
+        <h5 style="text-align: center;">Book a call slot our representative will call you within 1hr of selected time.
+        </h5><br>
+        <hr>
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <br>
+            <input id="name" name="name" placeholder="Enter your name">
+            <br><br>
+            <label for="email">Email:</label>
+            <br>
+            <input id="email" type="email" name="email" placeholder="Enter your email">
+            <br><br>
+            <label for="phone">Phone</label><br>
+            <input id="phone" name="phone" type="number" placeholder="Enter phone no."><br><br>
+            <label for="date">Time for call</label><br>
+            <div class="box">
+                <input value="2022-10-21" type="date" name="date" id="date">
+                <input type="time" id="date" name="date" value="11:00">
+            </div>
+
+            <br>
+            <input style="color: white;background-color:green;" type="submit" value="GET A CALL">
+
+        </form>
+    </div>
+    <script src="call.js"></script>
+
+</body>
+
+</html>
